@@ -1,0 +1,43 @@
+body
+{
+	margin: 0px auto;
+	padding: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* HEADER */
+
+#page-header
+{
+	display: block;
+	position: absolute;
+	padding: 0px;
+	overflow: hidden;
+	object-fit: cover;
+	z-index: 0;
+	filter: brightness(0.7);
+}
+#header-content
+{
+	position: absolute;
+	margin: 50vh 0vw 0vw 18vw;
+	z-index: 1;
+	font-size: 1.2vw;
+}
+#header-logo
+{
+	width: 50vw;
+}
+#header-caption
+{
+	width: 40vw;
+	padding: 0px;
+	margin-top: -1.1vw;
+}
+#header-tagline
+{
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 5vw;
+}
+
+
