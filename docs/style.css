@@ -20,24 +20,24 @@ body
 #header-content
 {
 	position: absolute;
-	margin: 50vh 0vw 0vw 18vw;
+	margin: 60vh 0vw 0vw 10vw;
 	z-index: 1;
-	font-size: 1.2vw;
+	font-size: 2vmin;
 }
 #header-logo
 {
-	width: 50vw;
+	width: 85vmin;
 }
 #header-caption
 {
-	width: 40vw;
+	width: 40%;
 	padding: 0px;
-	margin-top: -1.1vw;
+	margin-top: -1.8vh;
 }
 #header-tagline
 {
 	font-family: 'Roboto Mono', monospace;
-	margin-top: 5vw;
+	margin-top: 3vh;
 }
 
 
