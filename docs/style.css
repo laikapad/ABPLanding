@@ -7,21 +7,24 @@ body
 
 /* HEADER */
 
-#page-header
+#header-image
 {
 	display: block;
-	position: absolute;
-	padding: 0px;
+	position: relative;
 	overflow: hidden;
+	padding: 0px;
+	display: block;
+	position: relative;
 	object-fit: cover;
 	z-index: 0;
 	filter: brightness(0.7);
 }
 #header-content
 {
+	display: block;
 	position: absolute;
-	margin: 60vmin 0vw 0vw 10vw;
-	z-index: 1;
+	margin: -60vh 0vw 0vw 10vw;
+	z-index: 2;
 	font-size: 120%;
 }
 #header-logo
@@ -36,8 +39,84 @@ body
 }
 #header-tagline
 {
-	font-family: 'Roboto Mono', monospace;
 	margin-top: 3vmin;
+}
+
+/* CONTENT */
+
+.title
+{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.background-image
+{
+	display: block;
+	position: absolute;
+	object-fit: cover;
+	width: 100%;
+	height: 70vmin;
+	z-index: 0;
+	filter: brightness(0.7);
+}
+.content-box
+{
+	position: relative;
+    display: block;
+	box-sizing: border-box;
+	display: flex;
+  	justify-content: center;
+	width: 50%;
+	height: 70vmin;
+}
+.text-content
+{
+	display: block;
+	position: absolute;
+	margin: auto;
+	transform: translate(0, -50%);
+	width: 60%;
+  	top: 50%;
+}
+.text-content p
+{
+	margin-top: -2vmin;
+}
+
+.left
+{
+	float: left;
+}
+.right
+{
+	float: right;
+}
+.white-content
+{
+	color: white;
+}
+
+@media screen and (max-width: 480px) {
+    .content-box 
+	{
+        width: 100%;
+    }
+}
+
+/* FOOTER */
+#footer
+{
+	display: block;
+	position: relative;
+	background: #313131;
+	width: 100%;
+	height: 10%;
+	overflow: hidden;
+}
+#footer p
+{
+	height: 10%;
+	transform: translate(0, -50%);
 }
 
 
