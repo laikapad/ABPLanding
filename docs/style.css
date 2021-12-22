@@ -29,7 +29,10 @@ body
 }
 #header-logo
 {
+	display: block;
+	position: absolute;
 	width: 85vmin;
+	margin-top: 30vmin;
 }
 #header-caption
 {
@@ -102,6 +105,12 @@ body
 	{
         width: 100%;
     }
+}
+@media screen and (max-width: 680px) {
+	#header-logo
+	{
+		margin-top: 32vh;
+	}
 }
 
 /* FOOTER */
