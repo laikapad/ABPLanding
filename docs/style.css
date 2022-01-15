@@ -109,7 +109,11 @@ body
 @media screen and (max-width: 680px) {
 	#header-logo
 	{
-		margin-top: 32vh;
+		margin-top: 35vmax;
+	}
+	#header-caption
+	{
+		width: 80vmin;
 	}
 }
 
